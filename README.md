@@ -11,3 +11,15 @@ Reads the PCM of a wav audio file, then draws an image where the width and heigh
 
 ### Output
 `tone-1000hz-SECOND_OF_GENERATION.png`
+
+# Output Examples
+
+![tone-1000hz](examples/tone-1000hz-11.png)
+
+![white-noise](examples/white-noise-14.png)
+
+![sweep-440hz-1320hz-10](examples/sweep-440hz-1320hz-10.png)
+
+![dtmf-tones-7](examples/dtmf-tones-7.png)
+
+![drum_impact-6](examples/drum_impact-6.png)
