@@ -4,6 +4,11 @@ Creates different styles of drawings from source audio
 # What it does
 Reads the PCM of a wav audio file, then draws an image where the width and height is the square root of the number of samples, and each pixel is a gradient from either red to black for a negative Pulse, black for a null pulse (0), or gradient black to white for a positive pulse.
 
+# TODO
+* Define RGBA colors for low, mid, high pulse from command line (thinking comma delimmited `--low 255,255,255,255` style)
+* See if I can tweak the gradient modifier to be exponential for more dramatic gradations.
+* Optional output file (if you don't want default naming)
+* investigate dealing with stereo using a stereo image (deinterlace)
 
 # Usage Example
 ### Input
